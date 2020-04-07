@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+form {
+    border: 9px;
+    border-style: groove;
+    border-color: lightpink;
+    background-color: rgb(151, 69, 83);
+    width: 30vw;
+    height: 40vw;
+    margin: auto;
+}
+
+/* Intro */
+
+#intro {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Blocks */
+
+.block {
+    padding-top: 13px;
+    padding-bottom: 18px;
+    font-size: 15px;
+    padding-left: 25px;
+    border: 3px;
+    border-style: groove;
+    border-color: rgb(192, 80, 98);
+}
+.checkboxes {
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-bottom: 7px;
+}
+
+.checkboxes input{
+margin: 0px 0px 0px 0px;
+}
+
+.checkboxes label{
+    margin: 0px 60px 0px 15px;
+    width: 20px;
+}
+#do-you div {
+    padding-bottom: 10px;
+}
+
+#Small-animals {
+    padding-bottom: 18px;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 30px;
+}
